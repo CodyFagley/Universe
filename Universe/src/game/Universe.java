@@ -3,7 +3,7 @@
  *  Authored by Cody Fagley
  *  May 03, 2017
  */
-package universe;
+package game;
 
 public class Universe 
 {
