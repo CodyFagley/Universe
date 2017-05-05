@@ -23,14 +23,20 @@ public class SkillSet
     //  Survival Skills
     Skill cooking;
     Skill woodcutting;
-    Skill construction;
+    Skill mining;
+    Skill herbalism;
     Skill beastiary;
     Skill sneak;
-    short carryCapacity;
+    Skill carryCapacity;
+    Skill skinning;
+    Skill farming;
     
     //  Other Skills
     Skill research;
-    short luck;
+    Skill luck;
     Skill charisma;
+    Skill smithing;
+    Skill crafting;
+    Skill construction;
     
 }

@@ -6,12 +6,14 @@
 
 package actor.human;
 
+import actor.Actor;
+import actor.human.skills.SkillSet;
 import java.util.Vector;
 
 
 
 
-public class Person 
+public class Human extends Actor
 {
     /*
      *  Body Parts
@@ -68,14 +70,21 @@ public class Person
     String firstName;
     String surname;
     
+    SkillSet skills;
+    
     //  Current Diseases
     Vector<Disease> diseases;
     
     
    /*
+    *   Methods
+    */
+    
+    
+   /*
     *   Constructor
     */
-    Person()
+    Human()
     {
         
     }

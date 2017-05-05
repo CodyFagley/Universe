@@ -11,7 +11,9 @@ package actor.human.skills;
  */
 public class Skill 
 {
+    String name;
     short value;
     float progress;
     int learnRate; //  This value is between 50 - 150
+    String tooltip;
 }
