@@ -5,6 +5,8 @@
  */
 package game;
 
+import game.ui.App;
+
 public class Universe 
 {
 

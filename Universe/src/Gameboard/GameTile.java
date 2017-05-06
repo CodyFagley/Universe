@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package actor.human.skills;
+package Gameboard;
+
+import actor.Species;
 
 /**
  *
  * @author cody
  */
-public class Skill 
+public class GameTile 
 {
-    String name;
-    short value;
-    int progress;
-    float learnRate; //  This value is between 50 - 150
-    String tooltip;
+    String ground;
+    Species actor;
+
+    
 }

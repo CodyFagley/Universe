@@ -13,8 +13,8 @@ package actor;
 public class Actor 
 {
     //  Location Variables
-    int x;  //  x is the number of tiles right from (0, 0)
-    int y;  //  y is the number of tiles below (0, 0)
+    short x;  //  x is the number of tiles right from (0, 0)
+    short y;  //  y is the number of tiles below (0, 0)
     
     boolean alive;
 
