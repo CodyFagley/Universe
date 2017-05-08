@@ -11,5 +11,5 @@ package actor;
 
 public enum Species 
 {
-    HUMAN, NONE
+    HUMAN, DEER, NONE
 }

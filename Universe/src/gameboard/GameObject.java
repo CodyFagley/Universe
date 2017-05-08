@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Gameboard;
-
-import actor.Species;
+package gameboard;
 
 /**
  *
- * @author cody
+ * @author dylan
  */
-public class GameTile 
+public class GameObject 
 {
-    String ground;
-    Species actor;
-
+    int x;
+    int y;
     
+    public GameObject()
+    {
+        
+    }
 }

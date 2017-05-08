@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Gameboard;
+package gameboard;
+
+import actor.Species;
 
 /**
  *
  * @author cody
  */
-public class GameMap 
+public class GameTile 
 {
+    Ground ground;
+    Species actor;
 
-    GameTile map[][] = new GameTile[1000][1000];
     
 }

@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package actor.human.skills;
+package gameboard;
 
 /**
  *
  * @author cody
  */
-public class Skill 
+public class WorldMap 
 {
-    String name;
-    short value;
-    int progress;
-    float learnRate; //  This value is between 50 - 150
-    String tooltip;
+    GameMap map[][];
 }

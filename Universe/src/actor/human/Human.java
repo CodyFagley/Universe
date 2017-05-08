@@ -1,5 +1,5 @@
 /**
- *  Person.java
+ *  Human.java
  *  Authored by Cody Fagley
  *  May 3, 2017
  */
@@ -7,7 +7,7 @@
 package actor.human;
 
 import actor.Actor;
-import actor.human.skills.SkillSet;
+import equipable.Equipable;
 import java.util.Vector;
 
 
@@ -20,52 +20,52 @@ public class Human extends Actor
      */
         
     //  Critical Parts
-    short head;
-    short torso;
+    byte head;
+    byte torso;
     
     //  Major Appendages
-    short leftArm;
-    short leftLeg;
-    short leftHand;   //  Determined by Left Fingers
-    short leftFoot;   //  Determined by Left Toes
+    byte leftArm;
+    byte leftLeg;
+    byte leftHand;   //  Determined by Left Fingers
+    byte leftFoot;   //  Determined by Left Toes
     
-    short rightArm;
-    short rightLeg;
-    short rightHand;  //  Determined by Right Fingers
-    short rightFoot;  //  Determined by Right Toes
+    byte rightArm;
+    byte rightLeg;
+    byte rightHand;  //  Determined by Right Fingers
+    byte rightFoot;  //  Determined by Right Toes
     
     
     //  Minor Appendages
     //  Left Hand
-    short leftThumbFinger;
-    short leftIndexFinger;
-    short leftMiddleFinger;
-    short leftRingFinger;
-    short leftPinkyFinger;
+    byte leftThumbFinger;
+    byte leftIndexFinger;
+    byte leftMiddleFinger;
+    byte leftRingFinger;
+    byte leftPinkyFinger;
     
     //  Left Foot
-    short leftThumbToe;
-    short leftIndexToe;
-    short leftMiddleToe;
-    short leftRingToe;
-    short leftPinkyToe;
+    byte leftThumbToe;
+    byte leftIndexToe;
+    byte leftMiddleToe;
+    byte leftRingToe;
+    byte leftPinkyToe;
     
     //  Right Hand
-    short rightThumbFinger;
-    short rightIndexFinger;
-    short rightMiddleFinger;
-    short rightRingFinger;
-    short rightPinkyFinger;
+    byte rightThumbFinger;
+    byte rightIndexFinger;
+    byte rightMiddleFinger;
+    byte rightRingFinger;
+    byte rightPinkyFinger;
     
     //  Right Foot
-    short rightThumbToe;
-    short rightIndexToe;
-    short rightMiddleToe;
-    short rightRingToe;
-    short rightPinkyToe;
+    byte rightThumbToe;
+    byte rightIndexToe;
+    byte rightMiddleToe;
+    byte rightRingToe;
+    byte rightPinkyToe;
     
     //  Genetic Statistics
-    short age;
+    byte age;
     boolean gender;  // True == Female, False == Male
     String firstName;
     String surname;
@@ -75,6 +75,8 @@ public class Human extends Actor
     //  Current Diseases
     Vector<Disease> diseases;
     
+    //  Inventory
+    Equipable[] inventory = new Equipable[40];
     
    /*
     *   Methods
@@ -90,8 +92,8 @@ public class Human extends Actor
     }
     
     //  Accessors
-    public short getAge() {return age;}
-    public void setAge(short Age) {age = Age;}
+    public byte getAge() {return age;}
+    public void setAge(byte Age) {age = Age;}
     
     public boolean isFemale() {return gender;}
     public void setFemale(boolean isFemale) {gender = isFemale;}

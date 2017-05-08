@@ -10,14 +10,14 @@
  */
 package actor;
 
-public class Actor 
-{
-    //  Location Variables
-    short x;  //  x is the number of tiles right from (0, 0)
-    short y;  //  y is the number of tiles below (0, 0)
-    
-    boolean alive;
+import gameboard.GameObject;
+import java.util.Vector;
 
+public class Actor extends GameObject
+{
+    boolean alive;
+    Vector<Integer> tasks;
+    
     
     //  Accessor Methods
     public boolean isAlive() {return alive;}

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Gameboard;
+package gameboard;
 
 /**
  *
- * @author cody
+ * @author dylan
  */
-public class WorldMap 
+public enum Ground 
 {
-    GameMap map[][];
+    GRASS, SAND, ROCK, DIRT
 }

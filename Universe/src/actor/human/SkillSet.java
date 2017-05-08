@@ -7,7 +7,9 @@
 /*
  *  Class containing the human skillset
  */
-package actor.human.skills;
+package actor.human;
+
+import actor.human.Skill;
 
 
 /*
