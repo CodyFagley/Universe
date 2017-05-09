@@ -6,12 +6,10 @@
 
 package actor.human;
 
+import holdable.Inventory;
 import actor.Actor;
-import equipable.Equipable;
+import holdable.Holdable;
 import java.util.Vector;
-
-
-
 
 public class Human extends Actor
 {
@@ -76,7 +74,7 @@ public class Human extends Actor
     Vector<Disease> diseases;
     
     //  Inventory
-    Equipable[] inventory = new Equipable[40];
+    Inventory inv;
     
    /*
     *   Methods
